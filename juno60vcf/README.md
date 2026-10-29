@@ -5,10 +5,11 @@ linear OTA stages, TPT integrators, and saturating nonlinear resonance feedback.
 Each instance owns its state and uses libsamplerate for internal medium-quality
 sinc oversampling. No UDO or call-site interpolation is needed.
 
-Imported from `~/work/blue/rhythmic/src` on October 12, 2026. The DSP implementation
-is preserved; build paths, documentation, and test dependencies are adapted for
-this repository. The independent UDO and its circuit/derivation references are
+The independent UDO and its circuit/derivation references are
 retained in [tests/reference/juno60_filter.udo](tests/reference/juno60_filter.udo).
+
+The [research notes](research/README.md) collect circuit derivations, calibration
+studies, measurement scripts/results and standalone reference voice fixtures.
 
 ## Opcode
 
@@ -88,7 +89,9 @@ to play the pulse, noise, and resonance level references instead.
 
 An already installed opcode with the same name may shadow a new build.
 `CS_USER_PLUGINDIR` above points Csound at the new module. The checks additionally
-isolate `OPCODE7DIR` and `OPCODE7DIR64`. To use the library in Blue, copy it to
-your Csound opcode directory and restart Blue. On macOS, replace an installed
-library by copying to a temporary filename and renaming it over the destination
-to avoid stale code-signature caching.
+isolate `OPCODE7DIR` and `OPCODE7DIR64`. To use the library in Blue, run
+`make -C build install` from the repository root and restart Blue; see the
+[install instructions](../README.md#install). For manual installation on macOS,
+copy to a temporary filename and rename it over the destination to avoid stale
+code-signature caching. CMake's install target was verified to replace the old
+library's inode as well.

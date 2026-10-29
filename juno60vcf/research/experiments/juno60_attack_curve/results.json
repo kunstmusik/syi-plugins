@@ -1,0 +1,47 @@
+{
+  "source": "Andy Harman / Pendragon Software, Juno60 hardware sound analysis (2015)",
+  "fits": [
+    {
+      "file": "Juno 60 PWM=5.wav",
+      "attack_seconds": 0.2234726887801957,
+      "fitted_attack_curve": -0.9591285357497139,
+      "fit_duty_rmse": 0.0014478860852267011,
+      "previous_attack_rmse": 0.23677208311145678,
+      "corrected_attack_rmse": 0.008402656841928797
+    },
+    {
+      "file": "Juno 60 PWM=10.wav",
+      "attack_seconds": 0.2265447395521738,
+      "fitted_attack_curve": -1.104014038288082,
+      "fit_duty_rmse": 0.0011581100428074624,
+      "previous_attack_rmse": 0.2234275103937736,
+      "corrected_attack_rmse": 0.01015877711321848
+    },
+    {
+      "file": "Juno 60 PWM10Sus=0.wav",
+      "attack_seconds": 0.2295769166557963,
+      "fitted_attack_curve": -1.0843047159629682,
+      "fit_duty_rmse": 0.0016623008630566936,
+      "previous_attack_rmse": 0.22425709064737315,
+      "corrected_attack_rmse": 0.0083574260441755
+    }
+  ],
+  "waveform": "raw ENV recovered through PWM duty, independently of audio amplitude",
+  "method": "half-plateau crossings; bounded least squares; no imported emulator code",
+  "limitation": "One hardware unit; approximate panel positions; gain, switching, filter and recorder response not fully separated",
+  "production_change": "Attack curve -4.2 to -1 only; ADR timing, D/R shape and Gate unchanged",
+  "audition_order": [
+    "Organ 1 before",
+    "Organ 1 after",
+    "Organ 2 before",
+    "Organ 2 after",
+    "Organ 3 before",
+    "Organ 3 after"
+  ],
+  "common_gain": 0.25,
+  "slot_seconds": 0.8,
+  "midi_note": 60,
+  "output_stage": "actual instrument 6 common HPF/LEVEL; chorus off or factory mode 1",
+  "blue_sha256": "50f55debc480e81eda4e24bc65d2cc786a68a98d131516cf83aabbd0132eb566",
+  "plugin_sha256": "9c19ec33083a800d5617850a60986a93d6c7e598dc5bff494bb90589b485517a"
+}

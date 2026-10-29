@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Roland%20Juno-60%20factory%20programs%20group%201.wav",
+  "source_sha256": "30887e52fb1cd84610a9e93f387247ea417f1d5d95e7223189c893866e3fad8f",
+  "format_source": "https://wolfeffect.wordpress.com/juno-60-tape-format-reverse-engineered/",
+  "first_header_seconds": 2.8698863422291994,
+  "blocks": 64,
+  "valid_checksums": 64,
+  "patch_78": {
+    "patch": 78,
+    "vcf_env": 103,
+    "vcf_lfo": 0,
+    "vcf_kybd": 255,
+    "vca_level": 221,
+    "env_attack": 31,
+    "env_release": 192,
+    "env_decay": 179,
+    "env_sustain": 0,
+    "vcf_freq": 35,
+    "dco_noise": 0,
+    "dco_sub": 0,
+    "vcf_res": 255,
+    "dco_pwm": 0,
+    "lfo_rate": 25,
+    "dco_lfo": 0,
+    "lfo_delay": 255,
+    "switch_byte_1": 236,
+    "switch_byte_2": 160
+  },
+  "limitations": "Stored ADC/DAC bytes are voltages, not linear physical slider percentages. Switch-byte interpretation needs independent verification; raw bytes are preserved. The performance may have different calibration/settings from the tape."
+}

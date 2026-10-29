@@ -1,0 +1,84 @@
+{
+  "source": "https://github.com/pendragon-andyh/Juno60/tree/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO",
+  "commit": "beab8655781db7dadf2bf9fa6e3d4b6514de3132",
+  "files": [
+    {
+      "path": "LFO/Delay/Juno 60 LFO Delay 10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Delay/Juno%2060%20LFO%20Delay%2010.wav",
+      "sha256": "20321fc360ddc7ef2295ad08d35a01713df0d9469540cdb49487a123283b489c",
+      "bytes": 1722966
+    },
+    {
+      "path": "LFO/Delay/Juno 60 LFO Delay 2.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Delay/Juno%2060%20LFO%20Delay%202.5.wav",
+      "sha256": "550fcc30fbb1a68f51dae82289d2062446abfc4a65d47a3b02fe2d1428d975d6",
+      "bytes": 1722966
+    },
+    {
+      "path": "LFO/Delay/Juno 60 LFO Delay 5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Delay/Juno%2060%20LFO%20Delay%205.wav",
+      "sha256": "12103e147834ee7fea0dcd862548c2d07bcee28f279e3a7117e4f895b451f71b",
+      "bytes": 1722966
+    },
+    {
+      "path": "LFO/Delay/Juno 60 LFO Delay 7.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Delay/Juno%2060%20LFO%20Delay%207.5.wav",
+      "sha256": "9b4cc6304d543e9a9f883c772ce183055ebd12b4b4e9b58330ae9e06d9f3c875",
+      "bytes": 1855438
+    },
+    {
+      "path": "LFO/Delay/README.md",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Delay/README.md",
+      "sha256": "2a2224b306fd2ae7218f23de932e71a020bdb69d21f8db4ac36556f149fedf57",
+      "bytes": 403
+    },
+    {
+      "path": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/PitchModulation/Juno%2060%20LFO%202.1%20DCOmod%200.wav",
+      "sha256": "693b6286c4e604b4e5d1cf7d71a0023183c4961d0716771e548ff76ec197d6c3",
+      "bytes": 1060570
+    },
+    {
+      "path": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/PitchModulation/Juno%2060%20LFO%202.1%20DCOmod%2010.wav",
+      "sha256": "27ff079d708be17ed8dc82e697955519284031ec292eaadd52105e899b4e77c4",
+      "bytes": 928096
+    },
+    {
+      "path": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/PitchModulation/Juno%2060%20LFO%202.1%20DCOmod%205.wav",
+      "sha256": "eecd70dbd3515393437765d4028b4b5b89f0ac7abf1fb1b99a1151b0d0ee3aae",
+      "bytes": 1060570
+    },
+    {
+      "path": "LFO/Rate/Juno 60 LFO mod Rate 0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Rate/Juno%2060%20LFO%20mod%20Rate%200.wav",
+      "sha256": "388b778f82e2b10e4cbfef36f4b562fcd6909ecd8893249149bd90e79dbe6916",
+      "bytes": 928132
+    },
+    {
+      "path": "LFO/Rate/Juno 60 LFO mod Rate 10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Rate/Juno%2060%20LFO%20mod%20Rate%2010.wav",
+      "sha256": "0ea4443fc7daf8bea7a36d47bca756e5858f3e5a2152ec927107140900f48184",
+      "bytes": 1193078
+    },
+    {
+      "path": "LFO/Rate/Juno 60 LFO mod Rate 2.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Rate/Juno%2060%20LFO%20mod%20Rate%202.5.wav",
+      "sha256": "3f8f7cf979ce11218c3bce8577e6dc85681f76ba883e02b941b7b4529558e6c6",
+      "bytes": 1060606
+    },
+    {
+      "path": "LFO/Rate/Juno 60 LFO mod Rate 5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Rate/Juno%2060%20LFO%20mod%20Rate%205.wav",
+      "sha256": "5eb509045db9466e9a076dc730794581c712f28265e6d31ec240850d3e9fd7e4",
+      "bytes": 928132
+    },
+    {
+      "path": "LFO/Rate/Juno 60 LFO mod Rate 7.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/Rate/Juno%2060%20LFO%20mod%20Rate%207.5.wav",
+      "sha256": "86b1a89f78c1d5b0e6162680e288cbc94b9747070a44ea5567dad24ec1f96889",
+      "bytes": 928132
+    }
+  ]
+}

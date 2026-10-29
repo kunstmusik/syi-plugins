@@ -1,0 +1,116 @@
+{
+  "checked_date": "2026-10-08",
+  "purpose": "Public original-hardware comparison candidates. Recordings are supplied separately. Publisher attribution is not an independent authenticity check; MP3 decoding does not restore lost information.",
+  "captures": [
+    {
+      "source_url": "https://www.amazona.de/wp-content/uploads/2012/09/5_Resonanztest_1.mp3",
+      "file": "5_Resonanztest_1.mp3",
+      "sha256": "70d5576c7518d232e0645751f81bc72d0bc226591fad8a5bc92c2d59874f7ce0",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "21.953300",
+      "bit_rate": "320000",
+      "source_page": "https://www.amazona.de/vergleichstest-roland-juno-60-vs-tal-u-no-lx-v2-plugin/"
+    },
+    {
+      "source_url": "https://www.amazona.de/wp-content/uploads/2012/09/6_Resonanztest_2.mp3",
+      "file": "6_Resonanztest_2.mp3",
+      "sha256": "af2f85d0e6eb083db3de09c24704cf57d085491e22ff86ce7df80fe3e8f9e99e",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "19.969700",
+      "bit_rate": "320000",
+      "source_page": "https://www.amazona.de/vergleichstest-roland-juno-60-vs-tal-u-no-lx-v2-plugin/"
+    },
+    {
+      "source_url": "https://www.amazona.de/wp-content/uploads/2024/01/11-Juno-60-PWM-Envelope.mp3",
+      "file": "11-Juno-60-PWM-Envelope.mp3",
+      "sha256": "53d28746e5f6c8f5ff9e24d595fee596a0ae4a2c0b60970116d9c59aacb7953d",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "30.249800",
+      "bit_rate": "321083",
+      "source_page": "https://www.amazona.de/test-roland-ju-06a-vs-roland-juno-60-synthesizer/"
+    },
+    {
+      "source_url": "https://www.amazona.de/wp-content/uploads/2024/01/15-Juno-60-Arpeggio-Filtersweep.mp3",
+      "file": "15-Juno-60-Arpeggio-Filtersweep.mp3",
+      "sha256": "9d2fc00d759759e16d602c1eb9aef7220c8d73a4b69befb0a1f19909b7cfe7dc",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "24.973075",
+      "bit_rate": "321312",
+      "source_page": "https://www.amazona.de/test-roland-ju-06a-vs-roland-juno-60-synthesizer/"
+    },
+    {
+      "source_url": "https://www.amazona.de/wp-content/uploads/2024/01/21-Juno-60-Envelopes.mp3",
+      "file": "21-Juno-60-Envelopes.mp3",
+      "sha256": "aebca7cc16118fbb94c50e3401a9e5e5448c4479e09e0b29a6907e285484cf1b",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "31.869400",
+      "bit_rate": "321028",
+      "source_page": "https://www.amazona.de/test-roland-ju-06a-vs-roland-juno-60-synthesizer/"
+    },
+    {
+      "source_page": "https://www.synthmania.com/juno-60.htm",
+      "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/12%20Strings%202.mp3",
+      "file": "synthmania-12-Strings-2.mp3",
+      "sha256": "28e72a5597bba9d85abc92c6a3225e77ed0482063d39069a610d3eb42560ceed",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "38.590875",
+      "bit_rate": "128212"
+    },
+    {
+      "source_page": "https://www.synthmania.com/juno-60.htm",
+      "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/14%20Organ%201.mp3",
+      "file": "synthmania-14-Organ-1.mp3",
+      "sha256": "464eb39fc8227f227e7a169679c13397cfbb74edb6ed72754a741080ebfc7b5a",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "50.450438",
+      "bit_rate": "128162"
+    },
+    {
+      "source_page": "https://www.synthmania.com/juno-60.htm",
+      "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/15%20Organ%202.mp3",
+      "file": "synthmania-15-Organ-2.mp3",
+      "sha256": "e014509b76d57d88d246e1c7421850429db8c608cb2ce65578fe4cd5165c6005",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "42.718188",
+      "bit_rate": "128191"
+    },
+    {
+      "source_page": "https://www.synthmania.com/juno-60.htm",
+      "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/16%20Organ%203.mp3",
+      "file": "synthmania-16-Organ-3.mp3",
+      "sha256": "ccd4b96019acb39d810daad347828e6683cb2ce2a90eb29da70d85cc6385b926",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "46.741063",
+      "bit_rate": "128175"
+    },
+    {
+      "source_page": "https://www.synthmania.com/juno-60.htm",
+      "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/74%20Effect%20Sound%203.mp3",
+      "file": "synthmania-74-Effect-Sound-3.mp3",
+      "sha256": "5fc46cb7ec241b3a59efae03d1edd97ba54b94a9bbb7de6dafebc88d2e6ade74",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "21.532875",
+      "bit_rate": "128380"
+    },
+    {
+      "source_page": "https://www.synthmania.com/juno-60.htm",
+      "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/78%20Synthesizer%20Drum.mp3",
+      "file": "synthmania-78-Synthesizer-Drum.mp3",
+      "sha256": "4285b21dfad6f271c33bae1195d6d915c4f22674fabd5a01ef465a61300bafa6",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "11.031688",
+      "bit_rate": "128742"
+    }
+  ]
+}

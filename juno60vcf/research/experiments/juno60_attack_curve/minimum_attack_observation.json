@@ -1,0 +1,49 @@
+{
+  "file": "Juno 60 Attk=0.wav",
+  "estimated_audio_onset_seconds": 2.057868480725624,
+  "threshold": 0.001,
+  "estimator": "80th minus 20th percentile in complete falling-edge cycles",
+  "samples": [
+    {
+      "ms_after_audio_onset": 2.8117913832197416,
+      "normalized_cycle_pp": 0.9658083375052277
+    },
+    {
+      "ms_after_audio_onset": 5.079365079364795,
+      "normalized_cycle_pp": 0.986346097955957
+    },
+    {
+      "ms_after_audio_onset": 7.346938775509848,
+      "normalized_cycle_pp": 0.995470774223535
+    },
+    {
+      "ms_after_audio_onset": 9.625850340135855,
+      "normalized_cycle_pp": 1.0
+    },
+    {
+      "ms_after_audio_onset": 11.904761904761862,
+      "normalized_cycle_pp": 0.9983498291882563
+    },
+    {
+      "ms_after_audio_onset": 14.172335600906916,
+      "normalized_cycle_pp": 0.9986905567785547
+    },
+    {
+      "ms_after_audio_onset": 16.43990929705197,
+      "normalized_cycle_pp": 0.9982481986196734
+    },
+    {
+      "ms_after_audio_onset": 18.718820861677976,
+      "normalized_cycle_pp": 0.990627124396031
+    },
+    {
+      "ms_after_audio_onset": 20.99773242630354,
+      "normalized_cycle_pp": 0.9872493055901472
+    },
+    {
+      "ms_after_audio_onset": 23.265306122448592,
+      "normalized_cycle_pp": 0.9821421903394338
+    }
+  ],
+  "limitation": "Audio amplitude includes VCA and recording path, not raw ENV. Key-on unavailable; no new RC fit is asserted."
+}

@@ -1,0 +1,147 @@
+{
+  "source_commit": "beab8655781db7dadf2bf9fa6e3d4b6514de3132",
+  "measurement": "dry pulse frequency; two independent estimators",
+  "limitations": [
+    "Physical panel positions and calibration are approximate.",
+    "Rate 0 has no complete cycle; nominal 0.3Hz retained.",
+    "No isolated DCO depth below 5 or MANUAL delay capture.",
+    "Depth is half peak-to-peak cents, centered; converter asymmetry is not reproduced.",
+    "Delay fit subtracts note onset; README timing differs in several rows."
+  ],
+  "shape": {
+    "sine": {
+      "curvature": null,
+      "normalized_rmse": 0.07086566608629596
+    },
+    "triangle": {
+      "curvature": null,
+      "normalized_rmse": 0.20715371794923731
+    },
+    "tanh": {
+      "curvature": 1.9983052412270568,
+      "normalized_rmse": 0.029221539759899082
+    }
+  },
+  "measurements": [
+    {
+      "file": "LFO/Delay/Juno 60 LFO Delay 10.wav",
+      "onset_seconds": 0.4610657596371882,
+      "offset_seconds": 5.489251700680272,
+      "rate_hz": 21.94127295876989,
+      "half_range_cents": 219.98579279446403,
+      "delay_seconds": 2.5048545350841565,
+      "fade_seconds": 1.3472157696296885,
+      "fade_rmse": 0.011372567729751617
+    },
+    {
+      "file": "LFO/Delay/Juno 60 LFO Delay 2.5.wav",
+      "onset_seconds": 0.8424036281179138,
+      "offset_seconds": 5.985714285714286,
+      "rate_hz": 21.948885295088004,
+      "half_range_cents": 219.8336535863864,
+      "delay_seconds": 0.06124079394160093,
+      "fade_seconds": 0.04661654334319603,
+      "fade_rmse": 0.0037901862359608477
+    },
+    {
+      "file": "LFO/Delay/Juno 60 LFO Delay 5.wav",
+      "onset_seconds": 0.397437641723356,
+      "offset_seconds": 5.576349206349207,
+      "rate_hz": 21.94547270379005,
+      "half_range_cents": 219.9838757151001,
+      "delay_seconds": 0.4062852283534989,
+      "fade_seconds": 0.21323655893546062,
+      "fade_rmse": 0.005173841302861247
+    },
+    {
+      "file": "LFO/Delay/Juno 60 LFO Delay 7.5.wav",
+      "onset_seconds": 0.5580952380952381,
+      "offset_seconds": 5.59795918367347,
+      "rate_hz": 21.942519421648765,
+      "half_range_cents": 219.8722130602364,
+      "delay_seconds": 1.0384733433719342,
+      "fade_seconds": 0.5569306760506885,
+      "fade_rmse": 0.00777823054195909
+    },
+    {
+      "file": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 0.wav",
+      "onset_seconds": 0.9149659863945578,
+      "offset_seconds": 2.9954875283446714,
+      "rate_hz": null,
+      "half_range_cents": null,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 10.wav",
+      "onset_seconds": 0.4720634920634921,
+      "offset_seconds": 2.514625850340136,
+      "rate_hz": 1.0678483219526376,
+      "half_range_cents": 223.17905952972978,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 5.wav",
+      "onset_seconds": 0.9717460317460317,
+      "offset_seconds": 3.0151927437641723,
+      "rate_hz": 1.0675639691108478,
+      "half_range_cents": 94.3950474108351,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/Rate/Juno 60 LFO mod Rate 0.wav",
+      "onset_seconds": 0.4506122448979592,
+      "offset_seconds": 2.6972108843537415,
+      "rate_hz": null,
+      "half_range_cents": null,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/Rate/Juno 60 LFO mod Rate 10.wav",
+      "onset_seconds": 0.6956235827664399,
+      "offset_seconds": 2.923605442176871,
+      "rate_hz": 22.10670705309224,
+      "half_range_cents": 220.48082209347012,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/Rate/Juno 60 LFO mod Rate 2.5.wav",
+      "onset_seconds": 0.633718820861678,
+      "offset_seconds": 2.895532879818594,
+      "rate_hz": 0.841378257717404,
+      "half_range_cents": 224.61320340568818,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/Rate/Juno 60 LFO mod Rate 5.wav",
+      "onset_seconds": 0.27426303854875284,
+      "offset_seconds": 2.715827664399093,
+      "rate_hz": 3.414744313598968,
+      "half_range_cents": 223.49560634434965,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    },
+    {
+      "file": "LFO/Rate/Juno 60 LFO mod Rate 7.5.wav",
+      "onset_seconds": 0.5593424036281179,
+      "offset_seconds": 2.496077097505669,
+      "rate_hz": 11.644248581370274,
+      "half_range_cents": 221.06660103522518,
+      "delay_seconds": null,
+      "fade_seconds": null,
+      "fade_rmse": null
+    }
+  ]
+}

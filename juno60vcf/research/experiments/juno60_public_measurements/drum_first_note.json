@@ -1,0 +1,111 @@
+{
+  "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/78%20Synthesizer%20Drum.mp3",
+  "sha256": "4285b21dfad6f271c33bae1195d6d915c4f22674fabd5a01ef465a61300bafa6",
+  "estimator": "interpolated rising-crossing periods in first single-tone passage",
+  "bins": [
+    {
+      "start_seconds": 0.06,
+      "end_seconds": 0.08,
+      "cycles": 34,
+      "median_hz": 1701.5926430503919,
+      "p10_hz": 1624.4345920531975,
+      "p90_hz": 1798.951482399637
+    },
+    {
+      "start_seconds": 0.08,
+      "end_seconds": 0.1,
+      "cycles": 30,
+      "median_hz": 1500.5931031275236,
+      "p10_hz": 1428.2678557948393,
+      "p90_hz": 1569.131365150135
+    },
+    {
+      "start_seconds": 0.1,
+      "end_seconds": 0.12000000000000001,
+      "cycles": 27,
+      "median_hz": 1323.075958250158,
+      "p10_hz": 1259.3793815936692,
+      "p90_hz": 1384.4263949615142
+    },
+    {
+      "start_seconds": 0.12,
+      "end_seconds": 0.13999999999999999,
+      "cycles": 23,
+      "median_hz": 1172.470952025839,
+      "p10_hz": 1116.630658865722,
+      "p90_hz": 1223.2962695061844
+    },
+    {
+      "start_seconds": 0.14,
+      "end_seconds": 0.16,
+      "cycles": 21,
+      "median_hz": 1043.483887001689,
+      "p10_hz": 999.2625166142296,
+      "p90_hz": 1089.4492619650284
+    }
+  ],
+  "calibration": "No known baseline, exact note-on time or raw ENV capture; no ENV curve/depth fit",
+  "comparison": [
+    {
+      "source": "published_hardware",
+      "audio_onset_threshold": 0.005,
+      "estimated_audio_onset_seconds": 0.04691609977324263,
+      "early_median_hz": 1633.86557266803,
+      "late_median_hz": 1002.6120400912456,
+      "fall_octaves": 0.7045258254483313
+    },
+    {
+      "source": "published_hardware",
+      "audio_onset_threshold": 0.01,
+      "estimated_audio_onset_seconds": 0.04693877551020408,
+      "early_median_hz": 1633.86557266803,
+      "late_median_hz": 1002.6120400912456,
+      "fall_octaves": 0.7045258254483313
+    },
+    {
+      "source": "published_hardware",
+      "audio_onset_threshold": 0.02,
+      "estimated_audio_onset_seconds": 0.04696145124716553,
+      "early_median_hz": 1633.86557266803,
+      "late_median_hz": 1002.6120400912456,
+      "fall_octaves": 0.7045258254483313
+    },
+    {
+      "source": "native_factory_example",
+      "audio_onset_threshold": 0.005,
+      "estimated_audio_onset_seconds": 0.0022675736961451248,
+      "early_median_hz": 1688.1304794304897,
+      "late_median_hz": 905.491074671555,
+      "fall_octaves": 0.8986540916561246
+    },
+    {
+      "source": "native_factory_example",
+      "audio_onset_threshold": 0.01,
+      "estimated_audio_onset_seconds": 0.0023129251700680273,
+      "early_median_hz": 1688.1304794304897,
+      "late_median_hz": 905.491074671555,
+      "fall_octaves": 0.8986540916561246
+    },
+    {
+      "source": "native_factory_example",
+      "audio_onset_threshold": 0.02,
+      "estimated_audio_onset_seconds": 0.00235827664399093,
+      "early_median_hz": 1688.1304794304897,
+      "late_median_hz": 905.491074671555,
+      "fall_octaves": 0.8986540916561246
+    }
+  ],
+  "comparison_windows_after_audio_onset": [
+    [
+      0.02,
+      0.04
+    ],
+    [
+      0.1,
+      0.12
+    ]
+  ],
+  "comparison_limit": "Audio onset is not key-on. Model MIDI note 60 is an assumed reference; constant tuning offsets cancel from octave fall. Different depth and decay timing can explain a mismatch; neither is fitted.",
+  "csd_sha256": "db76b23fa046d5534a3dc59926402669194f94db4c31d895a35ed104d52028f4",
+  "plugin_sha256": "9c19ec33083a800d5617850a60986a93d6c7e598dc5bff494bb90589b485517a"
+}

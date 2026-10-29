@@ -1,0 +1,174 @@
+{
+  "source": "Andy Harman / Pendragon Software, Juno60 hardware sound analysis (2015)",
+  "repository": "https://github.com/pendragon-andyh/Juno60",
+  "license_url": "https://github.com/pendragon-andyh/Juno60/blob/master/MIT-LICENSE.md",
+  "test_plan_url": "https://github.com/pendragon-andyh/Juno60/blob/master/TestPlan/Juno60_ToneTestPlan.xlsx",
+  "test_plan_sha256": "eef461512156df6b83e1969d78076ed8f527685f3ba96d3ba555b2ee8504e4b5",
+  "base_settings": {
+    "pitch_hz": 440,
+    "pulse": "on",
+    "saw": "off",
+    "sub": "off",
+    "noise": 0,
+    "pwm_source": "Manual unless test overrides",
+    "pwm": 0,
+    "vcf_frequency": 10,
+    "vcf_resonance": 0,
+    "vcf_env": 0,
+    "vcf_lfo": 0,
+    "vcf_key": 0,
+    "hpf": 0,
+    "vca_mode": "Gate unless test overrides",
+    "patch_level": 0,
+    "chorus": "Off",
+    "processing": "None requested by test plan"
+  },
+  "pwm_tests": {
+    "vca_mode": "Gate",
+    "pwm_source": "ENV",
+    "attack": 5,
+    "decay": 5,
+    "sustain": 5,
+    "release": 5,
+    "sustain_overrides": "PWM10Sus=0 / =10 files"
+  },
+  "captures": [
+    {
+      "file": "Juno 60 Attk=0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Attack/Juno%2060%20Attk%3D0.wav",
+      "sha256": "3bd0d66e330746cffa8fe6a7e5c33ec064c23a897a87bf32e22c1e30c220288d",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 440104
+    },
+    {
+      "file": "Juno 60 Attk=10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Attack/Juno%2060%20Attk%3D10.wav",
+      "sha256": "13dddae21470b73c74e4bfba5e8554956d12d12380beb725691d28401cb299d7",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 509286
+    },
+    {
+      "file": "Juno 60 Attk=2.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Attack/Juno%2060%20Attk%3D2.5.wav",
+      "sha256": "c59baf93a22af75b26249de1ced0b1f6fb034a4f29dd94694e0283a9487bb8a1",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 411875
+    },
+    {
+      "file": "Juno 60 Attk=5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Attack/Juno%2060%20Attk%3D5.wav",
+      "sha256": "f280fa9e8dda6cb7f7846c6c8b0f9473b2c67386695075dd5a7d893d249a5f79",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 433811
+    },
+    {
+      "file": "Juno 60 Attk=7.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Attack/Juno%2060%20Attk%3D7.5.wav",
+      "sha256": "afdd0d46caa8b400efa06cec82de775b798a8301a58a1cbaf5a1b959faddf2fc",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 436108
+    },
+    {
+      "file": "Juno 60 Sus0Dcy=0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Decay/Juno%2060%20Sus0Dcy%3D0.wav",
+      "sha256": "ddb0f4c067c2ca51fdf9845caf4c4c82a5df7a5dc1887fe85580be33a36e09a5",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 385278
+    },
+    {
+      "file": "Juno 60 Sus0Dcy=10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Decay/Juno%2060%20Sus0Dcy%3D10.wav",
+      "sha256": "c5647a7563b3364cdfd0af1efd112e5c540d9bbafe9d8ca5e24c5f3a9a26a5ed",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 1051372
+    },
+    {
+      "file": "Juno 60 Sus0Dcy=2.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Decay/Juno%2060%20Sus0Dcy%3D2.5.wav",
+      "sha256": "46162d4e3c8d6b2e5595266d4b24f481133c29bc8e5f11029d4836f28b1e43cf",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 313431
+    },
+    {
+      "file": "Juno 60 Sus0Dcy=5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Decay/Juno%2060%20Sus0Dcy%3D5.wav",
+      "sha256": "4638dfc6f0fb5a859bc2decc73028b88a39e8882f8f0e3968cfcb3f591f36697",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 366765
+    },
+    {
+      "file": "Juno 60 Sus0Dcy=7.5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/Decay/Juno%2060%20Sus0Dcy%3D7.5.wav",
+      "sha256": "0d370195d82ff444e897868f8b16bf838b07a704fcc806abb31abc490df73607",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 559197
+    },
+    {
+      "file": "Juno 60 PWM10Sus=0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/PWM/Juno%2060%20PWM10Sus%3D0.wav",
+      "sha256": "5de77a2eaabdd48509985883f544366bf652e1666001aed9fe108e0e5df53fb7",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 204582
+    },
+    {
+      "file": "Juno 60 PWM10Sus=10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/PWM/Juno%2060%20PWM10Sus%3D10.wav",
+      "sha256": "60d777c4357315c2a3ae48662cda7e0e160cd6469fde5830bc4cf36253cd14b3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 323079
+    },
+    {
+      "file": "Juno 60 PWM=0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/PWM/Juno%2060%20PWM%3D0.wav",
+      "sha256": "9d2b802bc8421acbd383685e608f16a1d806b78713e1420721a4a3d1e29e8c15",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 334195
+    },
+    {
+      "file": "Juno 60 PWM=10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/PWM/Juno%2060%20PWM%3D10.wav",
+      "sha256": "5441cee02ffb329db3c3ff25f3499df44dbe218293c96355f1f47438a0c71211",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 354775
+    },
+    {
+      "file": "Juno 60 PWM=5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Envelope/PWM/Juno%2060%20PWM%3D5.wav",
+      "sha256": "f28b1671d737b9d1d3c91d6f6f0a7cc9a8ae5419f35486c0e8494289b77824eb",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 336883
+    },
+    {
+      "file": "Juno 60 Base Setting 1s.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Baseline/Juno%2060%20Base%20Setting%201s.wav",
+      "sha256": "7c3337285eed39f4a88563ec549a651bf4c4fd2e1ed7f902452cb4ce7b7170c3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 55305
+    },
+    {
+      "file": "Juno 60 Base Setting 2s.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Baseline/Juno%2060%20Base%20Setting%202s.wav",
+      "sha256": "bd3102f3b09cd5dd107dc9daf1b25899eb1b02b69a26ec2da93b03900996d0d8",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 96770
+    }
+  ],
+  "settings_limit": "Test plan describes intended settings. PWM=0 WAV amplitude follows an envelope, despite the plan inheriting VCA Gate; actual VCA mode is uncertain. Duty measurement avoids using amplitude as raw ENV."
+}

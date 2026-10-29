@@ -1,0 +1,184 @@
+{
+  "source": {
+    "source_page": "https://www.synthmania.com/juno-60.htm",
+    "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/78%20Synthesizer%20Drum.mp3",
+    "file": "synthmania-78-Synthesizer-Drum.mp3",
+    "sha256": "4285b21dfad6f271c33bae1195d6d915c4f22674fabd5a01ef465a61300bafa6",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration": "11.031688",
+    "bit_rate": "128742"
+  },
+  "nominal": {
+    "temperature_celsius": 25,
+    "beta": 200,
+    "reference_collector_current_amperes": 0.0001,
+    "reference_vbe_volts": 0.57,
+    "series_resistance_ohms": 18000,
+    "emitter_saturation_current_amperes": 2.3290119196933e-14,
+    "panel4_depth_octaves": 3.9098547103915693,
+    "full_depth_octaves": 12
+  },
+  "sensitivity": [
+    {
+      "resistance_ohms": 13000,
+      "vbe_at_100uA": 0.54,
+      "panel4_depth_octaves": 3.948471729609123
+    },
+    {
+      "resistance_ohms": 13000,
+      "vbe_at_100uA": 0.57,
+      "panel4_depth_octaves": 3.894836495228046
+    },
+    {
+      "resistance_ohms": 13000,
+      "vbe_at_100uA": 0.6,
+      "panel4_depth_octaves": 3.840497449779405
+    },
+    {
+      "resistance_ohms": 13000,
+      "vbe_at_100uA": 0.63,
+      "panel4_depth_octaves": 3.785441342883201
+    },
+    {
+      "resistance_ohms": 18000,
+      "vbe_at_100uA": 0.54,
+      "panel4_depth_octaves": 3.963296116606573
+    },
+    {
+      "resistance_ohms": 18000,
+      "vbe_at_100uA": 0.57,
+      "panel4_depth_octaves": 3.9098547103915697
+    },
+    {
+      "resistance_ohms": 18000,
+      "vbe_at_100uA": 0.6,
+      "panel4_depth_octaves": 3.855713135328287
+    },
+    {
+      "resistance_ohms": 18000,
+      "vbe_at_100uA": 0.63,
+      "panel4_depth_octaves": 3.8008582203555816
+    },
+    {
+      "resistance_ohms": 23000,
+      "vbe_at_100uA": 0.54,
+      "panel4_depth_octaves": 3.9744272335018676
+    },
+    {
+      "resistance_ohms": 23000,
+      "vbe_at_100uA": 0.57,
+      "panel4_depth_octaves": 3.9211311658224606
+    },
+    {
+      "resistance_ohms": 23000,
+      "vbe_at_100uA": 0.6,
+      "panel4_depth_octaves": 3.8671376582987973
+    },
+    {
+      "resistance_ohms": 23000,
+      "vbe_at_100uA": 0.63,
+      "panel4_depth_octaves": 3.812433599422227
+    }
+  ],
+  "metrics": [
+    {
+      "variant": "hardware",
+      "initial_octaves_per_second": -8.880730066134202,
+      "later_octaves_per_second": -4.935230371250615,
+      "early_hz": 1633.86557266803,
+      "late_hz": 1002.6120400912456,
+      "fall_octaves": 0.7045258254483313
+    },
+    {
+      "variant": "linear_before",
+      "initial_octaves_per_second": -11.614898069414222,
+      "later_octaves_per_second": -5.656546980360641,
+      "early_hz": 1631.2701437511282,
+      "late_hz": 885.9911645593546,
+      "fall_octaves": 0.880631500061257
+    },
+    {
+      "variant": "circuit_after",
+      "initial_octaves_per_second": -9.461467425060835,
+      "later_octaves_per_second": -4.610188502598463,
+      "early_hz": 1637.718802992669,
+      "late_hz": 997.1376270104215,
+      "fall_octaves": 0.7158231196461657
+    }
+  ],
+  "udo_unshifted": {
+    "initial_octaves_per_second": -9.415243851518587,
+    "later_octaves_per_second": -4.600226893803212,
+    "early_hz": 941.8404069158055,
+    "late_hz": 577.4479614633667,
+    "fall_octaves": 0.7057916791963914
+  },
+  "candidates": [
+    {
+      "variant": "linear_before",
+      "unshifted": {
+        "initial_octaves_per_second": -11.62833588916038,
+        "later_octaves_per_second": -5.656450390629996,
+        "early_hz": 1688.1304794304897,
+        "late_hz": 915.4205424203182,
+        "fall_octaves": 0.8829198454286074
+      },
+      "tuning_shift_octaves": -0.047137127812162644,
+      "gain": 0.6279665255576965
+    },
+    {
+      "variant": "circuit_after",
+      "unshifted": {
+        "initial_octaves_per_second": -9.445676296340858,
+        "later_octaves_per_second": -4.606718186314143,
+        "early_hz": 952.2852674713865,
+        "late_hz": 580.6459962427049,
+        "fall_octaves": 0.7137349528638
+      },
+      "tuning_shift_octaves": 0.7788235712367301,
+      "gain": 0.6277372377511727
+    }
+  ],
+  "static_filter_captures": [
+    {
+      "file": "Juno 60 LPF=0.wav",
+      "source_sha256": "7afaeca40d46319d1232ce3af83f082a4be696afced8c2a4a2261cc1f6175c39",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Filter/VCF/Juno%2060%20LPF%3D0.wav",
+      "maximum_fundamental_amplitude": 0.00023876905381556572
+    },
+    {
+      "file": "Juno 60 LPF=5.wav",
+      "source_sha256": "1e3a6175648e37700957907b6b8d253897af03f8d7404ac2752ad9830c04ecee",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Filter/VCF/Juno%2060%20LPF%3D5.wav",
+      "maximum_fundamental_amplitude": 0.1111495389815436
+    },
+    {
+      "file": "Juno 60 LPF=7.5.wav",
+      "source_sha256": "2942a694f0fa726e7eaf9703912acd182a0fc0eecbc4a4db3e71b42aae44a3f8",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Filter/VCF/Juno%2060%20LPF%3D7.5.wav",
+      "maximum_fundamental_amplitude": 0.1114516167465399
+    },
+    {
+      "file": "Juno 60 LPF=10.wav",
+      "source_sha256": "14233360cfcac861d67b96a7e4be4067f5f868136162c2d9798a980eda75e6bd",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/master/Filter/VCF/Juno%2060%20LPF%3D10.wav",
+      "maximum_fundamental_amplitude": 0.11044734256529808
+    }
+  ],
+  "conditional_freq0_pole_hz": 12.118766907141097,
+  "conditional_depth_for_30k_endpoint_octaves": 11.273503874316232,
+  "audition_order": [
+    "hardware",
+    "linear_before",
+    "circuit_after"
+  ],
+  "slot_seconds": 0.7,
+  "excerpt_seconds": 0.15,
+  "audition_gain": "RMS .12 over first 100ms; pitch shifts explicit; end-only 2ms crop fade",
+  "hold_seconds": 0.105,
+  "blue_sha256": "18c64da99a185ac59f998c2445b546c80c59b4b4ca3e91bb3b92a60a29efadb6",
+  "csd_sha256": "5371146544881e30d698a1f4e0b0389cd0249a10ae021ac547314193d63c76f5",
+  "plugin_sha256": "9c19ec33083a800d5617850a60986a93d6c7e598dc5bff494bb90589b485517a",
+  "limits": "Driver structure is from the service schematic. Vbe at 100uA is an approximate reading of the typical 2SA1015 graph; beta, gain-trim midpoint and temperature are nominal. Alternative 2SA1115 and actual trim are unknown. Full ENV gain, raw-ENV OTA transfer and FREQ baseline remain provisional. Static pole estimate assumes common gain and four equal poles. Audio note/key events are unknown; .105s hold is inferred. No drum-fit parameter is used in the production depth curve."
+}

@@ -1,0 +1,420 @@
+{
+  "project_sha256": "ed709e647b490af4c6c1fb68837d5ebb87ab60ba7825bac9f3d378f8b6621853",
+  "methods": "Median coherent harmonics; four-pole magnitude model; independent fundamental-amplitude and harmonic-ratio inversions.",
+  "assumptions": [
+    "Test-plan settings rather than independently logged panel voltages.",
+    "Same source and recording gains; reference captures effectively open.",
+    "Equal linear poles, negligible resonance and other frequency-dependent losses.",
+    "Rounded-triangle LFO fit; high-depth phase coverage can be insufficient."
+  ],
+  "cutoff": [
+    {
+      "panel": 0,
+      "fundamental_hz": 54.80920916292788,
+      "estimated_pole_hz": 12.744318820429866,
+      "fitted_gain": 0.95,
+      "rmse_db": 1.5028933071568538,
+      "harmonics_used": 2,
+      "production_command_hz": 7.8
+    },
+    {
+      "panel": 2.5,
+      "fundamental_hz": 54.872021771839705,
+      "estimated_pole_hz": 62.982340601920086,
+      "fitted_gain": 0.9989919066182544,
+      "rmse_db": 0.13448375303054783,
+      "harmonics_used": 7,
+      "production_command_hz": 140.08407278400696
+    },
+    {
+      "panel": 5,
+      "fundamental_hz": 54.87167333635737,
+      "estimated_pole_hz": 1323.1563733784146,
+      "fitted_gain": 1.0169787581927359,
+      "rmse_db": 0.0839374253364358,
+      "harmonics_used": 36,
+      "production_command_hz": 2515.839416378841
+    },
+    {
+      "panel": 7.5,
+      "fundamental_hz": 54.86882867922957,
+      "estimated_pole_hz": 18025.087447488062,
+      "fitted_gain": 1.006365791152629,
+      "rmse_db": 0.01497936276885052,
+      "harmonics_used": 180,
+      "production_command_hz": 45183.20922011371
+    }
+  ],
+  "resonance": [
+    {
+      "panel": 0,
+      "fundamental_hz": 54.872021771839705,
+      "fundamental_amplitude": 0.03564477153915292,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "panel": 2.5,
+      "fundamental_hz": 54.87050785120534,
+      "fundamental_amplitude": 0.04621392568491861,
+      "gain_over_res_zero_db": 2.25554052269044
+    },
+    {
+      "panel": 5,
+      "fundamental_hz": 54.870622634407994,
+      "fundamental_amplitude": 0.11151840352853312,
+      "gain_over_res_zero_db": 9.9070141607969
+    },
+    {
+      "panel": 7.5,
+      "fundamental_hz": 54.87058066925009,
+      "fundamental_amplitude": 0.22773049372368173,
+      "gain_over_res_zero_db": 16.10850704408823
+    },
+    {
+      "panel": 10,
+      "fundamental_hz": 54.8701667676729,
+      "fundamental_amplitude": 0.2761906032947383,
+      "gain_over_res_zero_db": 17.78426126386935
+    }
+  ],
+  "vcf_lfo": [
+    {
+      "file": "Juno 60 Filter Freq=2.5 LFO Mod 10.wav",
+      "panel": 10.0,
+      "freq_panel": 2.5,
+      "amplitude_frames": 51,
+      "ratio_frames": 51,
+      "amplitude_fit": {
+        "center_hz": 51.10866863226041,
+        "half_range_octaves": 3.1888342087905515,
+        "shape": 1.7255661858914744,
+        "rate_hz": 1.1797460151772254,
+        "rmse_octaves": 0.005285710244600408
+      },
+      "ratio_fit": {
+        "center_hz": 10.404986455417736,
+        "half_range_octaves": 5.412769935642515,
+        "shape": 2.285322841848669,
+        "rate_hz": 1.1787736550860413,
+        "rmse_octaves": 0.011036924817499268
+      },
+      "estimators_agree": false,
+      "production_anchor": false
+    },
+    {
+      "file": "Juno 60 Filter Freq=5 LFO Mod 0.wav",
+      "panel": 0.0,
+      "freq_panel": 5,
+      "amplitude_frames": 187,
+      "ratio_frames": 187,
+      "median_pole_amplitude_hz": 600.738101601084,
+      "median_pole_ratio_hz": 568.4241113986615,
+      "pitch_half_range_cents_2_98_percentiles": 22.71139760294045
+    },
+    {
+      "file": "Juno 60 Filter Freq=5 LFO Mod 10.wav",
+      "panel": 10.0,
+      "freq_panel": 5,
+      "amplitude_frames": 45,
+      "ratio_frames": 40,
+      "amplitude_fit": {
+        "center_hz": 680.6898508984277,
+        "half_range_octaves": 3.804096753610208,
+        "shape": 1.520234389853992,
+        "rate_hz": 1.0976121593592203,
+        "rmse_octaves": 0.01723100954890476
+      },
+      "ratio_fit": {
+        "center_hz": 626.3108772129161,
+        "half_range_octaves": 3.12294512480894,
+        "shape": 2.3127459841794655,
+        "rate_hz": 1.0985630565850797,
+        "rmse_octaves": 0.05217539524281091
+      },
+      "estimators_agree": false,
+      "production_anchor": false
+    },
+    {
+      "file": "Juno 60 Filter Freq=5 LFO Mod 2.5.wav",
+      "panel": 2.5,
+      "freq_panel": 5,
+      "amplitude_frames": 180,
+      "ratio_frames": 180,
+      "amplitude_fit": {
+        "center_hz": 608.0794514533036,
+        "half_range_octaves": 0.4157572799028051,
+        "shape": 1.728157022526118,
+        "rate_hz": 1.095920443266057,
+        "rmse_octaves": 0.007452475101624549
+      },
+      "ratio_fit": {
+        "center_hz": 581.6484507321662,
+        "half_range_octaves": 0.40010903695986466,
+        "shape": 1.738058636467361,
+        "rate_hz": 1.0948914066231286,
+        "rmse_octaves": 0.006406692935970146
+      },
+      "estimators_agree": true,
+      "production_anchor": false
+    },
+    {
+      "file": "Juno 60 Filter Freq=5 LFO Mod 5 .wav",
+      "panel": 5.0,
+      "freq_panel": 5,
+      "amplitude_frames": 176,
+      "ratio_frames": 176,
+      "amplitude_fit": {
+        "center_hz": 621.4720511801108,
+        "half_range_octaves": 1.3979051342607431,
+        "shape": 1.7428046640979733,
+        "rate_hz": 1.0972608340421428,
+        "rmse_octaves": 0.018723512962199273
+      },
+      "ratio_fit": {
+        "center_hz": 608.846445303196,
+        "half_range_octaves": 1.3752283187534042,
+        "shape": 1.8219607754103584,
+        "rate_hz": 1.096269007402157,
+        "rmse_octaves": 0.024496027710527436
+      },
+      "estimators_agree": true,
+      "production_anchor": false
+    },
+    {
+      "file": "Juno 60 Filter Freq=5 LFO Mod 7.5.wav",
+      "panel": 7.5,
+      "freq_panel": 5,
+      "amplitude_frames": 113,
+      "ratio_frames": 113,
+      "amplitude_fit": {
+        "center_hz": 654.2747186996625,
+        "half_range_octaves": 2.5908870369380206,
+        "shape": 1.705671247246163,
+        "rate_hz": 1.096828572606283,
+        "rmse_octaves": 0.014867855959094496
+      },
+      "ratio_fit": {
+        "center_hz": 620.1608067901025,
+        "half_range_octaves": 2.5392271605815755,
+        "shape": 1.8904864959180494,
+        "rate_hz": 1.0964837495430868,
+        "rmse_octaves": 0.020929351328743885
+      },
+      "estimators_agree": true,
+      "production_anchor": false
+    }
+  ],
+  "native_resonance": [
+    {
+      "input_amplitude": 0.25,
+      "law": "linear",
+      "panel": 0,
+      "fundamental_amplitude": 0.051464373532783415,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "linear",
+      "panel": 2.5,
+      "fundamental_amplitude": 0.10012769616514415,
+      "gain_over_res_zero_db": 5.7809506612608
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "linear",
+      "panel": 5,
+      "fundamental_amplitude": 0.21461503627992778,
+      "gain_over_res_zero_db": 12.403069110532531
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "linear",
+      "panel": 7.5,
+      "fundamental_amplitude": 0.3650549818391776,
+      "gain_over_res_zero_db": 17.017031780108756
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "linear",
+      "panel": 10,
+      "fundamental_amplitude": 0.2843022766324921,
+      "gain_over_res_zero_db": 14.845472937856282
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "loaded_current",
+      "panel": 0,
+      "fundamental_amplitude": 0.051464373532783415,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "loaded_current",
+      "panel": 2.5,
+      "fundamental_amplitude": 0.06794579595203956,
+      "gain_over_res_zero_db": 2.4131180001254164
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "loaded_current",
+      "panel": 5,
+      "fundamental_amplitude": 0.12134983442488248,
+      "gain_over_res_zero_db": 7.450649950954647
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "loaded_current",
+      "panel": 7.5,
+      "fundamental_amplitude": 0.2738255428585952,
+      "gain_over_res_zero_db": 14.519345335606662
+    },
+    {
+      "input_amplitude": 0.25,
+      "law": "loaded_current",
+      "panel": 10,
+      "fundamental_amplitude": 0.2843022766324921,
+      "gain_over_res_zero_db": 14.845472937856282
+    },
+    {
+      "input_amplitude": 1,
+      "law": "linear",
+      "panel": 0,
+      "fundamental_amplitude": 0.20585749413113366,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "input_amplitude": 1,
+      "law": "linear",
+      "panel": 2.5,
+      "fundamental_amplitude": 0.3962250725763691,
+      "gain_over_res_zero_db": 5.687505435006276
+    },
+    {
+      "input_amplitude": 1,
+      "law": "linear",
+      "panel": 5,
+      "fundamental_amplitude": 0.8030137862582208,
+      "gain_over_res_zero_db": 11.823126389921196
+    },
+    {
+      "input_amplitude": 1,
+      "law": "linear",
+      "panel": 7.5,
+      "fundamental_amplitude": 1.392429820887388,
+      "gain_over_res_zero_db": 16.6041326774996
+    },
+    {
+      "input_amplitude": 1,
+      "law": "linear",
+      "panel": 10,
+      "fundamental_amplitude": 1.0604843439383511,
+      "gain_over_res_zero_db": 14.238751589577008
+    },
+    {
+      "input_amplitude": 1,
+      "law": "loaded_current",
+      "panel": 0,
+      "fundamental_amplitude": 0.20585749413113366,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "input_amplitude": 1,
+      "law": "loaded_current",
+      "panel": 2.5,
+      "fundamental_amplitude": 0.27103593645461665,
+      "gain_over_res_zero_db": 2.3892039119776496
+    },
+    {
+      "input_amplitude": 1,
+      "law": "loaded_current",
+      "panel": 5,
+      "fundamental_amplitude": 0.4766627535201031,
+      "gain_over_res_zero_db": 7.292890711129756
+    },
+    {
+      "input_amplitude": 1,
+      "law": "loaded_current",
+      "panel": 7.5,
+      "fundamental_amplitude": 0.9905817141220828,
+      "gain_over_res_zero_db": 13.646472497613157
+    },
+    {
+      "input_amplitude": 1,
+      "law": "loaded_current",
+      "panel": 10,
+      "fundamental_amplitude": 1.0604843439383511,
+      "gain_over_res_zero_db": 14.238751589577008
+    },
+    {
+      "input_amplitude": 2,
+      "law": "linear",
+      "panel": 0,
+      "fundamental_amplitude": 0.4117149882622673,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "input_amplitude": 2,
+      "law": "linear",
+      "panel": 2.5,
+      "fundamental_amplitude": 0.7690103755788246,
+      "gain_over_res_zero_db": 5.426710437031402
+    },
+    {
+      "input_amplitude": 2,
+      "law": "linear",
+      "panel": 5,
+      "fundamental_amplitude": 1.4054996827229747,
+      "gain_over_res_zero_db": 10.664681487282813
+    },
+    {
+      "input_amplitude": 2,
+      "law": "linear",
+      "panel": 7.5,
+      "fundamental_amplitude": 2.239192986477706,
+      "gain_over_res_zero_db": 14.709896952726885
+    },
+    {
+      "input_amplitude": 2,
+      "law": "linear",
+      "panel": 10,
+      "fundamental_amplitude": 2.823142635601911,
+      "gain_over_res_zero_db": 16.722722866440517
+    },
+    {
+      "input_amplitude": 2,
+      "law": "loaded_current",
+      "panel": 0,
+      "fundamental_amplitude": 0.4117149882622673,
+      "gain_over_res_zero_db": 0.0
+    },
+    {
+      "input_amplitude": 2,
+      "law": "loaded_current",
+      "panel": 2.5,
+      "fundamental_amplitude": 0.5376210899162079,
+      "gain_over_res_zero_db": 2.3175923887162417
+    },
+    {
+      "input_amplitude": 2,
+      "law": "loaded_current",
+      "panel": 5,
+      "fundamental_amplitude": 0.9088283370609563,
+      "gain_over_res_zero_db": 6.877703644788735
+    },
+    {
+      "input_amplitude": 2,
+      "law": "loaded_current",
+      "panel": 7.5,
+      "fundamental_amplitude": 1.656107899490752,
+      "gain_over_res_zero_db": 12.089839023585764
+    },
+    {
+      "input_amplitude": 2,
+      "law": "loaded_current",
+      "panel": 10,
+      "fundamental_amplitude": 2.823142635601911,
+      "gain_over_res_zero_db": 16.722722866440517
+    }
+  ],
+  "plugin_sha256": "9c19ec33083a800d5617850a60986a93d6c7e598dc5bff494bb90589b485517a"
+}

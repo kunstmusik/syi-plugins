@@ -14,10 +14,17 @@ if(APPLE)
   set_target_properties(juno60vcf PROPERTIES SUFFIX ".dylib")
 endif()
 
+install(TARGETS juno60vcf
+  LIBRARY DESTINATION "${PLUGIN_INSTALL_DIR}"
+  RUNTIME DESTINATION "${PLUGIN_INSTALL_DIR}")
+
 if(BUILD_TESTING)
   find_package(Python3 COMPONENTS Interpreter REQUIRED)
   find_program(CSOUND_EXECUTABLE csound REQUIRED)
   add_test(NAME juno60vcf
     COMMAND "${Python3_EXECUTABLE}" "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_juno60vcf.py"
             "$<TARGET_FILE:juno60vcf>" "${CSOUND_EXECUTABLE}")
+  add_test(NAME juno60vcf_research
+    COMMAND "${Python3_EXECUTABLE}" "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_research.py"
+            "$<TARGET_FILE:juno60vcf>")
 endif()

@@ -1,0 +1,144 @@
+{
+  "source": {
+    "source_page": "https://www.synthmania.com/juno-60.htm",
+    "source_url": "https://www.synthmania.com/Roland%20Juno-60/Audio/Factory%20presets%20group%201/78%20Synthesizer%20Drum.mp3",
+    "file": "synthmania-78-Synthesizer-Drum.mp3",
+    "sha256": "4285b21dfad6f271c33bae1195d6d915c4f22674fabd5a01ef465a61300bafa6",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration": "11.031688",
+    "bit_rate": "128742"
+  },
+  "csd_sha256": "db76b23fa046d5534a3dc59926402669194f94db4c31d895a35ed104d52028f4",
+  "csd_source": "fixtures/linear_env_depth.csd",
+  "plugin_sha256": "9c19ec33083a800d5617850a60986a93d6c7e598dc5bff494bb90589b485517a",
+  "hardware_audio_onset": 0.04693877551020408,
+  "model_audio_onset": 0.0023129251700680273,
+  "metrics": [
+    {
+      "variant": "hardware",
+      "initial_octaves_per_second": -8.880730066134202,
+      "later_octaves_per_second": -4.935230371250615,
+      "early_hz": 1633.86557266803,
+      "late_hz": 1002.6120400912456,
+      "fall_octaves": 0.7045258254483313
+    },
+    {
+      "variant": "current_original_tuning_hold_300ms",
+      "initial_octaves_per_second": -11.62833588916038,
+      "later_octaves_per_second": -9.56433619345767,
+      "early_hz": 1688.1304794304897,
+      "late_hz": 905.491074671555,
+      "fall_octaves": 0.8986540916561246
+    },
+    {
+      "variant": "current_hold_300ms",
+      "initial_octaves_per_second": -11.614898069414222,
+      "later_octaves_per_second": -9.565705251766438,
+      "early_hz": 1631.2701437511282,
+      "late_hz": 873.0076935796285,
+      "fall_octaves": 0.9019294438198031
+    },
+    {
+      "variant": "current_hold_105ms",
+      "initial_octaves_per_second": -11.614898069414222,
+      "later_octaves_per_second": -5.656546980360641,
+      "early_hz": 1631.2701437511282,
+      "late_hz": 885.9911645593546,
+      "fall_octaves": 0.880631500061257
+    },
+    {
+      "variant": "shallower_env_hold_105ms",
+      "initial_octaves_per_second": -8.858698427777341,
+      "later_octaves_per_second": -4.3139479816424275,
+      "early_hz": 1629.9872511814704,
+      "late_hz": 1022.3579311509093,
+      "fall_octaves": 0.6729603031905899
+    },
+    {
+      "variant": "slower_decay_hold_105ms",
+      "initial_octaves_per_second": -8.88523210226759,
+      "later_octaves_per_second": -6.125496079094502,
+      "early_hz": 1628.3401470327722,
+      "late_hz": 1012.4799520331584,
+      "fall_octaves": 0.6855087566754335
+    }
+  ],
+  "native_command_error_cents": {
+    "median": -0.33108316514485875,
+    "p01": -0.48451202852489456,
+    "p99": -0.272640949064099
+  },
+  "raw_pwm_decay_fits": [
+    {
+      "file": "Juno 60 PWM=5.wav",
+      "source_sha256": "f28b1671d737b9d1d3c91d6f6f0a7cc9a8ae5419f35486c0e8494289b77824eb",
+      "lambda_per_second": 2.8756009384008143,
+      "duty_rmse": 0.0014334821270787544
+    },
+    {
+      "file": "Juno 60 PWM=10.wav",
+      "source_sha256": "5441cee02ffb329db3c3ff25f3499df44dbe218293c96355f1f47438a0c71211",
+      "lambda_per_second": 2.748966941729671,
+      "duty_rmse": 0.0007665333331924999
+    },
+    {
+      "file": "Juno 60 PWM10Sus=0.wav",
+      "source_sha256": "5de77a2eaabdd48509985883f544366bf652e1666001aed9fe108e0e5df53fb7",
+      "lambda_per_second": 3.015492062789819,
+      "duty_rmse": 0.0016243702349994639
+    }
+  ],
+  "current_lambda_per_second": 2.7967371400033296,
+  "fixed_decay_fit": {
+    "depth_octaves": 3.659945091509452,
+    "decay_seconds": 1.50175,
+    "rmse_cents": 5.310150031843975
+  },
+  "fixed_depth_fit": {
+    "depth_octaves": 4.8,
+    "decay_seconds": 2.047778548579831,
+    "rmse_cents": 4.130842602207126
+  },
+  "candidates": [
+    {
+      "label": "current_hold_300ms",
+      "depth_octaves": 4.8,
+      "decay_seconds": 1.50175,
+      "tuning_shift_octaves": -0.047137127812162644,
+      "hold_seconds": 0.3
+    },
+    {
+      "label": "current_hold_105ms",
+      "depth_octaves": 4.8,
+      "decay_seconds": 1.50175,
+      "tuning_shift_octaves": -0.047137127812162644,
+      "hold_seconds": 0.105
+    },
+    {
+      "label": "shallower_env_hold_105ms",
+      "depth_octaves": 3.659945091509452,
+      "decay_seconds": 1.50175,
+      "tuning_shift_octaves": 1.0002502175893246,
+      "hold_seconds": 0.105
+    },
+    {
+      "label": "slower_decay_hold_105ms",
+      "depth_octaves": 4.8,
+      "decay_seconds": 2.047778548579831,
+      "tuning_shift_octaves": -0.1477258803749164,
+      "hold_seconds": 0.105
+    }
+  ],
+  "audition_order": [
+    "hardware",
+    "current_hold_300ms",
+    "current_hold_105ms",
+    "shallower_env_hold_105ms",
+    "slower_decay_hold_105ms"
+  ],
+  "slot_seconds": 0.5,
+  "excerpt_seconds": 0.15,
+  "audition_gain": "Each excerpt scaled to RMS .12 over its first .10s; pitch shifts explicitly recorded. End-only 2ms fade.",
+  "limitations": "Short performance, MP3, unknown note, key-on, key-off and baseline. Fits assume audio-threshold alignment and curve -4.2. Release at .105s is an inference. Neither candidate identifies a unique hardware mapping. No production DSP or preset changes."
+}

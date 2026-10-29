@@ -1,0 +1,126 @@
+{
+  "commit": "beab8655781db7dadf2bf9fa6e3d4b6514de3132",
+  "captures": [
+    {
+      "path": "Filter/VCF/Juno 60 LPF2.5 Res=10.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF2.5%20Res%3D10.wav",
+      "sha256": "6d64e6835225e4f8046c1f459ec9f83eeff5e633dea60c7d62cf97d04b7f7097",
+      "bytes": 1060570
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF2.5 Res=2.5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF2.5%20Res%3D2.5.wav",
+      "sha256": "694cd07dd3a16f5cb71923e6cc1b8f2271f58c418568db4bb048a786bf10b270",
+      "bytes": 1060570
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF2.5 Res=5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF2.5%20Res%3D5.wav",
+      "sha256": "4212ccf56126ec2285f683d5b659ddf99ef81546e31084cdd7bbacf869cffbea",
+      "bytes": 1193042
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF2.5 Res=7.5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF2.5%20Res%3D7.5.wav",
+      "sha256": "6756f76ac36d9f72f6888f88e2922e75910e2a221148374e7885ecb54f2f6e73",
+      "bytes": 1193042
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF=0.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF%3D0.wav",
+      "sha256": "7afaeca40d46319d1232ce3af83f082a4be696afced8c2a4a2261cc1f6175c39",
+      "bytes": 928096
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF=10.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF%3D10.wav",
+      "sha256": "14233360cfcac861d67b96a7e4be4067f5f868136162c2d9798a980eda75e6bd",
+      "bytes": 928096
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF=2.5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF%3D2.5.wav",
+      "sha256": "6c01bc1ab0f457d0dfd34362b70845581b21fe46e1d2cb9645cdd6cdb4247fd2",
+      "bytes": 1060570
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF=5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF%3D5.wav",
+      "sha256": "1e3a6175648e37700957907b6b8d253897af03f8d7404ac2752ad9830c04ecee",
+      "bytes": 1060570
+    },
+    {
+      "path": "Filter/VCF/Juno 60 LPF=7.5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/Filter/VCF/Juno%2060%20LPF%3D7.5.wav",
+      "sha256": "2942a694f0fa726e7eaf9703912acd182a0fc0eecbc4a4db3e71b42aae44a3f8",
+      "bytes": 1060570
+    },
+    {
+      "path": "LFO/FilterModulation/Juno 60 Filter Freq=2.5 LFO Mod 10.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/FilterModulation/Juno%2060%20Filter%20Freq%3D2.5%20LFO%20Mod%2010.wav",
+      "sha256": "9467f04e1bb6c050bec0bd118e39c2b9274eed66f7339ee12b4cd191ac4b38f4",
+      "bytes": 1193078
+    },
+    {
+      "path": "LFO/FilterModulation/Juno 60 Filter Freq=5 LFO Mod 0.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/FilterModulation/Juno%2060%20Filter%20Freq%3D5%20LFO%20Mod%200.wav",
+      "sha256": "4cd51ffae6f603756e7133599f74fb70ff0af4bd6109b7cbd63859968a5c2e36",
+      "bytes": 928096
+    },
+    {
+      "path": "LFO/FilterModulation/Juno 60 Filter Freq=5 LFO Mod 10.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/FilterModulation/Juno%2060%20Filter%20Freq%3D5%20LFO%20Mod%2010.wav",
+      "sha256": "a6638e40b2940fe82f4eff3422e82053d8b83a8754a2cc105107050c20f7ee15",
+      "bytes": 1193042
+    },
+    {
+      "path": "LFO/FilterModulation/Juno 60 Filter Freq=5 LFO Mod 2.5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/FilterModulation/Juno%2060%20Filter%20Freq%3D5%20LFO%20Mod%202.5.wav",
+      "sha256": "96a11d2c4e9199514c5b937d6042f40d742a16143b116f8ebe1c5dc071f8630b",
+      "bytes": 928096
+    },
+    {
+      "path": "LFO/FilterModulation/Juno 60 Filter Freq=5 LFO Mod 5 .wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/FilterModulation/Juno%2060%20Filter%20Freq%3D5%20LFO%20Mod%205%20.wav",
+      "sha256": "82d05578fe6c6c22f74db4dd21c1f659d3761f4fe8ccd38fa3569afa41bf7130",
+      "bytes": 928096
+    },
+    {
+      "path": "LFO/FilterModulation/Juno 60 Filter Freq=5 LFO Mod 7.5.wav",
+      "url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/FilterModulation/Juno%2060%20Filter%20Freq%3D5%20LFO%20Mod%207.5.wav",
+      "sha256": "7277a11b998109956b0350cc2621b2dcc4fe6e963ce68af9e21c5d7fde24fdc7",
+      "bytes": 928096
+    },
+    {
+      "path": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 0.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/PitchModulation/Juno%2060%20LFO%202.1%20DCOmod%200.wav",
+      "sha256": "693b6286c4e604b4e5d1cf7d71a0023183c4961d0716771e548ff76ec197d6c3",
+      "bytes": 1060570,
+      "root": "lfo"
+    },
+    {
+      "path": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 10.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/PitchModulation/Juno%2060%20LFO%202.1%20DCOmod%2010.wav",
+      "sha256": "27ff079d708be17ed8dc82e697955519284031ec292eaadd52105e899b4e77c4",
+      "bytes": 928096,
+      "root": "lfo"
+    },
+    {
+      "path": "LFO/PitchModulation/Juno 60 LFO 2.1 DCOmod 5.wav",
+      "source_url": "https://raw.githubusercontent.com/pendragon-andyh/Juno60/beab8655781db7dadf2bf9fa6e3d4b6514de3132/LFO/PitchModulation/Juno%2060%20LFO%202.1%20DCOmod%205.wav",
+      "sha256": "eecd70dbd3515393437765d4028b4b5b89f0ac7abf1fb1b99a1151b0d0ee3aae",
+      "bytes": 1060570,
+      "root": "lfo"
+    }
+  ],
+  "test_plan": {
+    "url": "https://github.com/pendragon-andyh/Juno60/blob/beab8655781db7dadf2bf9fa6e3d4b6514de3132/TestPlan/Juno60_ToneTestPlan.xlsx",
+    "sha256": "eef461512156df6b83e1969d78076ed8f527685f3ba96d3ba555b2ee8504e4b5"
+  },
+  "limitations": [
+    "Physical slider labels are approximate, not measured ADC voltages.",
+    "VCF depth-0 capture has substantial pitch modulation not specified in its test plan.",
+    "Static and LFO FREQ=5 captures give different apparent pole frequencies.",
+    "No original-hardware waveform below DCO depth 5."
+  ]
+}
